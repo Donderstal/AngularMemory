@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+
+.colors1 {
+    color: maroon;
+    background-color: #E4B71D;
+    border: 2px groove #335876
+}
+
+.colors2 {
+    background-color: #FFDE00;
+    border: 2px groove #FFDE00;
+    color: maroon;
+}
+
+body {
+    overflow-x:hidden;
+}

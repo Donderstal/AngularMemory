@@ -1,0 +1,10 @@
+<div class="col-xs-3">
+    <div class="col-xs-6 col-xs-offset-3" id="actualCard{{ card.id }}">
+        <a class="cardDiv" (click)="onClickCard(card)">
+            <img id="cardIMG{{ card.id }}" class="displayCard" src="../../../assets/embraceIT.jpg">
+        </a>
+    </div><br>
+</div>
+
+<!-- *ngIf="card.flipped == true" class="displayCard" src="{{ card.imagePath }}">
+            <img *ngIf="card.flipped == false" class="displayCard" src="../../../assets/embraceIT.jpg"> -->

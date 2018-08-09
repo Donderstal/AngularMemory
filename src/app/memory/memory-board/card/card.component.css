@@ -1,0 +1,17 @@
+.displayCard {
+    height: 175px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    animation-name: banana;
+    animation-duration: 4s;
+}
+
+@keyframes banana {
+    0% {transform: skewY(0deg)};
+    25% {transform: skewY(50deg)};
+    50% {transform: skewY(80deg)};
+    50% {transform: skewX(80deg)};
+    50% {transform: skewX(80deg)};
+}

@@ -1,0 +1,23 @@
+<div class="col-xs-10 col-xs-offset-1">
+    <div class="row">
+<hr>
+    </div>
+  </div>
+<div class="col-xs-10 col-xs-offset-1">
+  <div class="row">
+      <app-memory-board
+      *ngIf="game.running == true">
+      </app-memory-board>
+      <app-start-game
+      *ngIf="game.running == false && game.gameOver == false"
+      ></app-start-game>
+      <app-end-game
+      *ngIf="game.gameOver == true">
+      </app-end-game>
+  </div>
+</div>
+<div class="col-xs-10 col-xs-offset-1">
+        <div class="row">
+    <hr>
+</div>
+</div>
