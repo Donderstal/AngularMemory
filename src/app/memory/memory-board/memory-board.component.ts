@@ -5,8 +5,8 @@ import { GameService } from '../game.service';
 
 @Component({
   selector: 'app-memory-board',
-  templateUrl: './memory-board.component.html',
-  styleUrls: ['./memory-board.component.css']
+  templateUrl: './memory-board.component.html'
+  /* styleUrls: ['./memory-board.component.css'] */
 })
 export class MemoryBoardComponent implements OnInit {
   cards: object[]
